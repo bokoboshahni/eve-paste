@@ -1,0 +1,28 @@
+require:
+  - rubocop-performance
+  - rubocop-rake
+  - rubocop-rspec
+  - rubocop-thread_safety
+
+AllCops:
+  NewCops: enable
+  Exclude:
+    - 'bin/*'
+    - 'tmp/**/*'
+    - 'vendor/**/*'
+
+Lint/EmptyBlock:
+  Exclude:
+    - 'spec/**/*_spec.rb'
+
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*_spec.rb'
+
+Naming/FileName:
+  Exclude:
+    - 'lib/eve-sde.rb'
+
+Rake/Desc:
+  Exclude:
+    - 'lib/tasks/**/*.rake'
