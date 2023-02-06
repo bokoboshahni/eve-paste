@@ -18,7 +18,7 @@ group :development do
   gem 'bundler-leak', '~> 0.3.0', require: false
   gem 'rubocop', '~> 1.39', require: false
   gem 'rubocop-faker', '~> 1.1', require: false
-  gem 'rubocop-performance', '~> 1.15', require: false
+  gem 'rubocop-performance', '~> 1.16', require: false
   gem 'rubocop-rake', '~> 0.6.0', require: false
   gem 'rubocop-rspec', '~> 2.15', require: false
   gem 'rubocop-thread_safety', '~> 0.4.4', require: false
